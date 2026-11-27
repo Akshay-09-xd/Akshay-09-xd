@@ -1,106 +1,60 @@
-## Learning log
+<div align="center">
 
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/hero?username=akshay-09-xd&theme=zen&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F207868306%3Fv%3D4" alt="akshay-09-xd hero visual" />
-</p>
+![Akshay profile banner](assets/profile-banner.svg)
 
-**akshay-09-xd** · Frontend or full-stack engineer
+### Software engineering · Applied machine learning · Security
 
-## Currently learning
+I build complete applications: from the data model and API to the interface, tests, and documentation.
 
-> Building useful things and learning in public.
+[Explore my work](#selected-projects) · [See my approach](#how-i-build) · [Get in touch](#connect)
 
-**Learning next**
+</div>
 
-- Jupyter Notebook
-- JavaScript
-- Python
+## About me
 
-👥 **4** followers · **8** following
+I'm Akshay, a developer interested in full-stack products, practical machine learning, and secure systems. I like projects where the user can inspect *why* a system produced a result, whether that means tracing the transactions behind an alert or seeing how a text classifier handles a review.
 
-## Tools I’m practicing
+## Selected projects
 
-- **Jupyter Notebook** · 71%
-- **JavaScript** · 28%
+### [Sentinel AML](https://github.com/Akshay-09-xd/sentinel-aml) · Investigation workbench
 
-## Projects in progress
+A full-stack application for exploring transaction networks and managing evidence-backed anti-money-laundering cases. It detects time-ordered circular flows and concentrated fan-in patterns, shows the transfers behind each finding, and supports case notes, decisions, exports, and an audit history. The local demo runs with FastAPI, SQLite, NetworkX, and scikit-learn; Neo4j and local Ollama summaries are optional.
 
-<details>
-<summary><b>ins</b> · Python</summary>
+**Built with:** Python, FastAPI, SQLite, NetworkX, scikit-learn, Neo4j, JavaScript
 
-A selected project from this GitHub profile.<br/>
-⭐ 0 · 🍴 0
+[View code and setup](https://github.com/Akshay-09-xd/sentinel-aml#readme) · [See dashboard](https://github.com/Akshay-09-xd/sentinel-aml/blob/main/docs/dashboard.jpg)
 
-[View repository](https://github.com/Akshay-09-xd/ins)
-</details>
+### [Product review sentiment analysis](https://github.com/Akshay-09-xd/Sentiment-Analysis-on-Product-Reviews) · Text classification app
 
-<details>
-<summary><b>fsd-project</b> · JavaScript</summary>
+Classifies individual product reviews and CSV batches as positive or negative. Includes a Flask API and browser interface, downloadable batch results, a sentiment chart, and a Streamlit interface. The repository includes the trained XGBoost model and text preprocessing artifacts.
 
-A selected project from this GitHub profile.<br/>
-⭐ 0 · 🍴 0
+**Built with:** Python, Flask, Streamlit, XGBoost, NLP
 
-[View repository](https://github.com/Akshay-09-xd/fsd-project)
-</details>
+[View code and setup](https://github.com/Akshay-09-xd/Sentiment-Analysis-on-Product-Reviews#readme)
 
-<details>
-<summary><b>Devops-lab03</b> · Java</summary>
+### [Dynamic OTP authentication](https://github.com/Akshay-09-xd/ins) · Security project
 
-A selected project from this GitHub profile.<br/>
-⭐ 0 · 🍴 0
+A PIN-protected software token and authentication server using HMAC-SHA256 challenges. Codes expire, can be used once, and are checked with attempt limits; the project also includes a TOTP mode and 19 unit tests.
 
-[View repository](https://github.com/Akshay-09-xd/Devops-lab03)
-</details>
+**Built with:** Python standard library, HMAC-SHA256, TOTP, unittest
 
-<details>
-<summary><b>devops</b> · Java</summary>
+[View implementation](https://github.com/Akshay-09-xd/ins#readme)
 
-A selected project from this GitHub profile.<br/>
-⭐ 0 · 🍴 0
+## What I work with
 
-[View repository](https://github.com/Akshay-09-xd/devops)
-</details>
+| Area | Tools and concepts shown in my projects |
+| --- | --- |
+| Backend and data | Python, FastAPI, Flask, REST APIs, SQLite, graph queries |
+| Machine learning | scikit-learn, XGBoost, text preprocessing, anomaly detection |
+| Frontend | JavaScript, HTML, CSS, Streamlit |
+| Security and quality | Authentication, HMAC, encryption, audit trails, unit and API tests |
 
-<details>
-<summary><b>brain-tumor-</b> · open source</summary>
+## How I build
 
-A selected project from this GitHub profile.<br/>
-⭐ 0 · 🍴 0
+- **Make results explainable.** Sentinel links each graph finding to the exact transaction evidence; the sentiment app exposes individual and batch predictions.
+- **Build the whole workflow.** I work across storage, APIs, interfaces, and local setup so a project can be run and reviewed.
+- **Document tradeoffs.** My project READMEs describe the implementation, how to test it, and where the demo's limits are.
 
-[View repository](https://github.com/Akshay-09-xd/brain-tumor-)
-</details>
+## Connect
 
-<details>
-<summary><b>brain-</b> · open source</summary>
-
-A selected project from this GitHub profile.<br/>
-⭐ 0 · 🍴 0
-
-[View repository](https://github.com/Akshay-09-xd/brain-)
-</details>
-
-## Progress so far
-
-- **Current streak:** 0 days
-- **Longest streak:** 2 days
-- **Active days:** 8 days
-
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/stats?username=akshay-09-xd&theme=zen&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F207868306%3Fv%3D4" alt="akshay-09-xd stats visual" />
-</p>
-
-## Learning streak
-
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/heatmap?username=akshay-09-xd&theme=zen" alt="akshay-09-xd contribution activity" />
-</p>
-
-## Say hello
-
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/social?username=akshay-09-xd&theme=zen&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F207868306%3Fv%3D4" alt="akshay-09-xd social visual" />
-</p>
-
-<a href="https://github.com/akshay-09-xd">GitHub</a>
-
-<p align="center"><sub>akshay-09-xd · Learning profile generated with <a href="https://www.gitskins.com/readme-generator">GitSkins</a></sub></p>
+The best way to learn more about my work is to open a project above and inspect the code. You can also [contact me through GitHub](https://github.com/Akshay-09-xd).
