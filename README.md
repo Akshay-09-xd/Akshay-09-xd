@@ -16,6 +16,14 @@ I'm Akshay, a developer interested in full-stack products, practical machine lea
 
 ## Selected projects
 
+### [RAG Guard Lab](https://github.com/Akshay-09-xd/rag-guard-lab) · Prompt injection test bench
+
+A reproducible RAG security lab with 12 poisoned-document attacks, six benign controls, paired before/after runs, and a local results dashboard. It measures retrieval exposure, exact-marker attack success, answer utility, latency, and token usage. The included sample uses a clearly labeled simulator; the same harness supports a configured live model.
+
+**Built with:** Python, retrieval ranking, security testing, evaluation design, JavaScript
+
+[View methodology and code](https://github.com/Akshay-09-xd/rag-guard-lab#readme)
+
 ### [Sentinel AML](https://github.com/Akshay-09-xd/sentinel-aml) · Investigation workbench
 
 A full-stack application for exploring transaction networks and managing evidence-backed anti-money-laundering cases. It detects time-ordered circular flows and concentrated fan-in patterns, shows the transfers behind each finding, and supports case notes, decisions, exports, and an audit history. The local demo runs with FastAPI, SQLite, NetworkX, and scikit-learn; Neo4j and local Ollama summaries are optional.
@@ -47,11 +55,11 @@ A PIN-protected software token and authentication server using HMAC-SHA256 chall
 | Backend and data | Python, FastAPI, Flask, REST APIs, SQLite, graph queries |
 | Machine learning | scikit-learn, XGBoost, text preprocessing, anomaly detection |
 | Frontend | JavaScript, HTML, CSS, Streamlit |
-| Security and quality | Authentication, HMAC, encryption, audit trails, unit and API tests |
+| Security and quality | Prompt injection testing, authentication, HMAC, encryption, audit trails, unit and API tests |
 
 ## How I build
 
-- **Make results explainable.** Sentinel links each graph finding to the exact transaction evidence; the sentiment app exposes individual and batch predictions.
+- **Make results explainable.** Sentinel links each graph finding to exact transaction evidence; RAG Guard Lab separates retrieval exposure from attack success.
 - **Build the whole workflow.** I work across storage, APIs, interfaces, and local setup so a project can be run and reviewed.
 - **Document tradeoffs.** My project READMEs describe the implementation, how to test it, and where the demo's limits are.
 
